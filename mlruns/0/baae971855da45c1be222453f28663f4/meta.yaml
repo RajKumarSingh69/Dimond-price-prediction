@@ -1,0 +1,15 @@
+artifact_uri: file:///F:/DATA_SCIENCE/MLOPS/Ineuron/MLOPS/mlruns/0/baae971855da45c1be222453f28663f4/artifacts
+end_time: 1718454850751
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: baae971855da45c1be222453f28663f4
+run_name: honorable-cub-744
+run_uuid: baae971855da45c1be222453f28663f4
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718454845389
+status: 3
+tags: []
+user_id: rajkr

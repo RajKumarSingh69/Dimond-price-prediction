@@ -1,0 +1,209 @@
+[2024-06-12 17:42:43,024] 31 root - INFO - Here again, I am testing
+[2024-06-12 17:43:10,710] 26 root - INFO - Here again, I am testing
+[2024-06-13 10:20:20,742] 2 root - INFO - this is my testing code
+[2024-06-13 12:18:50,084] 23 root - INFO - data ingestion started
+[2024-06-13 12:19:30,346] 23 root - INFO - data ingestion started
+[2024-06-13 12:39:55,315] 25 root - INFO - data ingestion started
+[2024-06-13 12:40:59,749] 23 root - INFO - data ingestion started
+[2024-06-13 12:41:17,113] 23 root - INFO - data ingestion started
+[2024-06-13 12:41:17,332] 52 root - INFO - HTTP Error 404: Not Found
+[2024-06-13 12:42:58,795] 23 root - INFO - data ingestion started
+[2024-06-13 12:42:59,394] 52 root - INFO - HTTP Error 404: Not Found
+[2024-06-13 12:43:13,857] 23 root - INFO - data ingestion started
+[2024-06-13 12:51:42,093] 23 root - INFO - data ingestion started
+[2024-06-13 12:51:42,282] 26 root - INFO -  reading a df
+[2024-06-13 12:51:42,604] 30 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-06-13 12:51:42,604] 32 root - INFO - here i have performed train test split
+[2024-06-13 12:51:42,625] 35 root - INFO - train test split completed
+[2024-06-13 12:51:42,876] 40 root - INFO - data ingestion part completed
+[2024-06-13 13:24:17,391] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-06-13 13:24:17,403] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-06-13 13:24:54,632] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-06-13 13:24:54,632] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-06-13 13:24:55,672] 23 root - INFO - data ingestion started
+[2024-06-13 13:24:55,831] 26 root - INFO -  reading a df
+[2024-06-13 13:24:55,985] 30 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-06-13 13:24:55,985] 32 root - INFO - here i have performed train test split
+[2024-06-13 13:24:56,001] 35 root - INFO - train test split completed
+[2024-06-13 13:24:56,154] 40 root - INFO - data ingestion part completed
+[2024-06-13 13:24:56,205] 87 root - INFO - read train and test data complete
+[2024-06-13 13:24:56,212] 88 root - INFO - Train Dataframe Head : 
+   Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0        8585   1.51       Good     I     VS1   65.9   56.0  7.02  7.09  4.65   8975
+1        4252   1.15    Premium     E     SI2   62.3   58.0  6.73  6.67  4.18   4688
+2       23404   0.37    Premium     E     SI2   59.5   61.0  4.70  4.68  2.79    666
+3       10127   0.30  Very Good     I     SI1   62.5   57.0  4.27  4.30  2.68    382
+4        4970   1.18    Premium     G    VVS2   61.0   58.0  6.79  6.84  4.16   7881
+[2024-06-13 13:24:56,214] 89 root - INFO - Test Dataframe Head : 
+   Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       17972   2.03  Very Good     I     SI2   62.2   54.0  8.11  8.15  5.06  14239
+1        9450   0.77      Ideal     G     VS2   62.1   56.0  5.84  5.88  3.64   3544
+2       16740   0.71  Very Good     H     VS1   62.1   55.0  5.71  5.72  3.55   2569
+3        9026   0.71       Fair     D     VS2   56.9   65.0  5.89  5.84  3.34   2858
+4        6798   1.02       Good     G    VVS2   63.1   59.0  6.38  6.45  4.05   7800
+[2024-06-13 13:24:56,215] 32 root - INFO - Data Transformation initiated
+[2024-06-13 13:24:56,215] 43 root - INFO - Pipeline Initiated
+[2024-06-13 13:24:56,217] 125 root - INFO - Exception occured in the initiate_datatransformation
+[2024-06-13 13:27:35,731] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-06-13 13:27:35,731] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-06-13 13:27:36,736] 23 root - INFO - data ingestion started
+[2024-06-13 13:27:36,766] 26 root - INFO -  reading a df
+[2024-06-13 13:27:36,892] 30 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-06-13 13:27:36,892] 32 root - INFO - here i have performed train test split
+[2024-06-13 13:27:36,895] 35 root - INFO - train test split completed
+[2024-06-13 13:27:37,037] 40 root - INFO - data ingestion part completed
+[2024-06-13 13:27:37,121] 73 root - INFO - Read train and test data complete
+[2024-06-13 13:27:37,122] 74 root - INFO - Train DataFrame Head : 
+   Unnamed: 0  carat      cut color clarity  depth  table     x     y     z  price
+0       16401   0.38    Ideal     E     SI1    NaN   53.8  4.63  4.67  2.88    693
+1        5033   0.27    Ideal     F     VS2   61.8   53.0  4.18  4.20  2.59    583
+2        2889   1.20    Ideal     D     SI2   61.7   56.0  6.88  6.81  4.22   6740
+3        2906   0.34  Premium     E     SI1   61.8   58.0  4.50  4.47  2.77    765
+4       13358   1.26    Ideal     H     SI1   61.0   56.0  7.00  7.04  4.28   6715
+[2024-06-13 13:27:37,122] 75 root - INFO - Test DataFrame Head : 
+   Unnamed: 0  carat      cut color clarity  depth  table     x     y     z  price
+0        8626   0.33     Good     F     VS2   59.5   61.0  4.49  4.54  2.68    643
+1        4829   1.53    Ideal     I     SI1   61.9   54.0  7.43  7.50  1.53   8971
+2       10339   0.30  Premium     F    VVS2   61.5   58.0  4.29  4.31  2.64    737
+3        1658   0.51  Premium     I     SI2   60.4   59.0  5.20  5.17  3.13    956
+4        2356   0.32     Good     D     SI1   63.7   55.0  4.38  4.35  2.78    756
+[2024-06-13 13:27:37,122] 27 root - INFO - Data Transformation initiated
+[2024-06-13 13:27:37,122] 38 root - INFO - Pipeline Initiated
+[2024-06-13 13:27:37,192] 94 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-06-13 13:27:37,196] 104 root - INFO - Preprocessing pickle file saved
+[2024-06-13 13:27:37,196] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-06-13 13:27:37,823] 44 root - INFO - Model Report : {'LinearRegression': 0.9122389245700993, 'Lasso': 0.9121956510411432, 'Ridge': 0.9122340925217518, 'Elasticnet': 0.8412273744648393}
+[2024-06-13 13:27:37,823] 57 root - INFO - Best Model Found , Model Name : LinearRegression , R2 Score : 0.9122389245700993
+[2024-06-13 13:30:00,992] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-06-13 13:30:00,992] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-06-13 13:30:01,326] 49 root - INFO - Starting data ingestion process
+[2024-06-13 13:30:01,326] 23 root - INFO - data ingestion started
+[2024-06-13 13:30:01,353] 26 root - INFO -  reading a df
+[2024-06-13 13:30:01,485] 30 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-06-13 13:30:01,485] 32 root - INFO - here i have performed train test split
+[2024-06-13 13:30:01,485] 35 root - INFO - train test split completed
+[2024-06-13 13:30:01,601] 40 root - INFO - data ingestion part completed
+[2024-06-13 13:30:01,617] 53 root - INFO - Starting data transformation process
+[2024-06-13 13:30:01,766] 73 root - INFO - Read train and test data complete
+[2024-06-13 13:30:01,766] 74 root - INFO - Train DataFrame Head : 
+   Unnamed: 0  carat      cut color clarity  depth  table     x     y     z  price
+0       26401   0.33    Ideal     I     VS1   61.6   57.0  4.41  4.46  2.73    521
+1       20652   0.30  Premium     F     VS1   61.0   58.0  4.33  4.36  2.65    570
+2        4267   0.67     Good     G     VS2   57.5   60.1  5.78  5.83  3.34   2131
+3       12671   0.30    Ideal     F      IF   62.0   56.0  4.31  4.33  2.68    886
+4       18877   0.76    Ideal     F     VS2   61.6   55.0  5.88  5.90  3.63   2725
+[2024-06-13 13:30:01,766] 75 root - INFO - Test DataFrame Head : 
+   Unnamed: 0  carat      cut color clarity  depth  table     x     y     z  price
+0       25900   0.50     Good     E    VVS1   58.3   62.0  5.16  5.23  3.03   2008
+1       26357   1.15    Ideal     G     SI2   62.4   56.0  6.70  6.74  4.19   4877
+2        1610   0.31    Ideal     E    VVS2   62.0   54.0  4.38  4.40  2.72    791
+3       14131   1.54  Premium     I     VS1   61.6   58.0  7.42  7.39  4.56  10349
+4         433   1.20    Ideal     H     VS2   59.9   57.0  6.91  6.87  4.13   6487
+[2024-06-13 13:30:01,766] 27 root - INFO - Data Transformation initiated
+[2024-06-13 13:30:01,766] 38 root - INFO - Pipeline Initiated
+[2024-06-13 13:30:01,820] 94 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-06-13 13:30:01,820] 104 root - INFO - Preprocessing pickle file saved
+[2024-06-13 13:30:01,820] 57 root - INFO - Starting model training process
+[2024-06-13 13:30:01,820] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-06-13 13:30:02,799] 44 root - INFO - Model Report : {'LinearRegression': 0.9024012129484908, 'Lasso': 0.9024503419889, 'Ridge': 0.9023959713838375, 'Elasticnet': 0.8272967921439063}
+[2024-06-13 13:30:02,799] 57 root - INFO - Best Model Found , Model Name : Lasso , R2 Score : 0.9024503419889
+[2024-06-13 13:30:02,799] 61 root - INFO - Starting model evaluation process
+[2024-06-13 13:30:03,731] 37 root - INFO - 
+================================================================================
+
+[2024-06-13 13:30:03,731] 38 root - INFO - Best Model Found , Model Name : Lasso , R2 Score : 0.9024503419889
+
+[2024-06-13 13:30:03,731] 39 root - INFO - ================================================================================
+
+[2024-06-13 13:30:03,731] 63 root - INFO - Evaluation Report: {'LinearRegression': 0.9024012129484908, 'Lasso': 0.9024503419889, 'Ridge': 0.9023959713838375, 'Elasticnet': 0.8272967921439063}
+[2024-06-13 13:30:03,731] 64 root - INFO - Best Model: Lasso with R2 Score: 0.9024503419889
+[2024-06-13 13:57:15,403] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.7.202:8000
+[2024-06-13 13:57:15,403] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-06-13 13:57:34,533] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.7.202:8000
+[2024-06-13 13:57:34,533] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-06-13 13:57:38,532] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2024 13:57:38] "GET / HTTP/1.1" 200 -
+[2024-06-13 13:57:38,635] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2024 13:57:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[2024-06-13 13:57:58,862] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2024 13:57:58] "GET /predict HTTP/1.1" 200 -
+[2024-06-13 13:59:06,517] 187 werkzeug - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8000
+ * Running on http://192.168.7.202:8000
+[2024-06-13 13:59:06,517] 187 werkzeug - INFO - [33mPress CTRL+C to quit[0m
+[2024-06-13 13:59:17,332] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2024 13:59:17] "GET /predict HTTP/1.1" 200 -
+[2024-06-13 13:59:46,402] 68 root - INFO - Dataframe Gathered
+[2024-06-13 13:59:46,722] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2024 13:59:46] "POST /predict HTTP/1.1" 200 -
+[2024-06-13 13:59:54,493] 187 werkzeug - INFO - 127.0.0.1 - - [13/Jun/2024 13:59:54] "GET /predict HTTP/1.1" 200 -
+[2024-06-15 18:00:12,523] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-06-15 18:00:12,620] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-06-15 18:01:10,980] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-06-15 18:01:10,980] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-06-15 18:01:15,014] 23 root - INFO - data ingestion started
+[2024-06-15 18:01:15,156] 26 root - INFO -  reading a df
+[2024-06-15 18:01:15,297] 30 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-06-15 18:01:15,297] 32 root - INFO - here i have performed train test split
+[2024-06-15 18:01:15,313] 35 root - INFO - train test split completed
+[2024-06-15 18:01:15,438] 40 root - INFO - data ingestion part completed
+[2024-06-15 18:01:15,472] 73 root - INFO - Read train and test data complete
+[2024-06-15 18:01:15,487] 74 root - INFO - Train DataFrame Head : 
+   Unnamed: 0  carat      cut color clarity  depth  table     x     y     z  price
+0        5814   1.55    Ideal     E     VS2   61.9   58.0  7.39  7.45  4.59  15293
+1         257   0.43    Ideal     D     SI1   61.6   56.0  4.86  4.82  2.98   1036
+2       13827   0.33  Premium     I     VS1   61.1   59.0  4.44  4.47  2.72    521
+3       23468   1.02  Premium     I     SI1   60.2   60.0  6.45  6.39  3.87   3713
+4       13309   0.30  Premium     D     VS2   60.9   58.0  4.32  4.35  2.64    710
+[2024-06-15 18:01:15,487] 75 root - INFO - Test DataFrame Head : 
+   Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       24996   0.33  Very Good     G     VS1   62.9   57.0  4.38  4.43  2.77    666
+1       12562   0.70    Premium     H     SI2   60.2   61.0  5.76  5.66  3.44   2184
+2       19850   0.52  Very Good     I    VVS1    NaN   58.0  5.13  5.10  3.23   1577
+3       18401   1.28    Premium     J     SI1   61.9   56.0  7.13  7.00  4.37   5290
+4       24370   0.90       Good     G    VVS2   62.6   58.0  6.10  6.13  3.83   4668
+[2024-06-15 18:01:15,487] 27 root - INFO - Data Transformation initiated
+[2024-06-15 18:01:15,487] 38 root - INFO - Pipeline Initiated
+[2024-06-15 18:01:15,536] 94 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-06-15 18:01:15,536] 104 root - INFO - Preprocessing pickle file saved
+[2024-06-15 18:01:15,536] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-06-15 18:01:19,168] 44 root - INFO - Model Report : {'LinearRegression': 0.8625152325117033, 'Lasso': 0.8943738732945661, 'Ridge': 0.8661295903360433, 'Elasticnet': 0.8256110716726206}
+[2024-06-15 18:01:19,168] 57 root - INFO - Best Model Found , Model Name : Lasso , R2 Score : 0.8943738732945661
+[2024-06-15 18:01:19,168] 15 root - INFO - evaluation started
+[2024-06-15 18:01:19,168] 33 root - INFO - model has register
+[2024-06-15 18:01:19,460] 21 root - INFO - evaluation metrics captured
+[2024-06-15 18:04:01,481] 148 numexpr.utils - INFO - Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.
+[2024-06-15 18:04:01,481] 161 numexpr.utils - INFO - NumExpr defaulting to 8 threads.
+[2024-06-15 18:04:04,159] 23 root - INFO - data ingestion started
+[2024-06-15 18:04:04,186] 26 root - INFO -  reading a df
+[2024-06-15 18:04:04,311] 30 root - INFO -  i have saved the raw dataset in artifact folder
+[2024-06-15 18:04:04,311] 32 root - INFO - here i have performed train test split
+[2024-06-15 18:04:04,311] 35 root - INFO - train test split completed
+[2024-06-15 18:04:04,444] 40 root - INFO - data ingestion part completed
+[2024-06-15 18:04:04,497] 73 root - INFO - Read train and test data complete
+[2024-06-15 18:04:04,501] 74 root - INFO - Train DataFrame Head : 
+   Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0       10438   0.91  Very Good     H     VS2   59.9   62.0  6.26  6.33  3.77   4201
+1        3540   1.01  Very Good     F     SI2   63.5   56.0  6.38  6.35  4.04   3897
+2       25293   0.54    Premium     D     SI1   60.0   58.0  5.30  5.26  3.17   1667
+3        8378   0.33      Ideal     G    VVS1   60.4   58.0  4.50  4.51  2.72    802
+4       17681   0.32      Ideal     F     VS2   61.9   56.0  4.44  4.41  2.74    828
+[2024-06-15 18:04:04,504] 75 root - INFO - Test DataFrame Head : 
+   Unnamed: 0  carat        cut color clarity  depth  table     x     y     z  price
+0        7521   0.54  Very Good     D     SI1   62.1   58.0  5.21  5.23  3.24   1662
+1       26730   0.40       Good     D     SI2   63.9   53.0  4.68  4.71  3.00    622
+2        3844   0.31      Ideal     G     SI1   61.2   55.0  4.37  4.39  2.68    446
+3       25220   1.20       Fair     I      I1   65.1   55.0  6.65  6.59  4.31   2376
+4       24808   0.51      Ideal     F    VVS1   62.0   57.0  5.15  5.11  3.18   2812
+[2024-06-15 18:04:04,504] 27 root - INFO - Data Transformation initiated
+[2024-06-15 18:04:04,504] 38 root - INFO - Pipeline Initiated
+[2024-06-15 18:04:04,552] 94 root - INFO - Applying preprocessing object on training and testing datasets.
+[2024-06-15 18:04:04,554] 104 root - INFO - Preprocessing pickle file saved
+[2024-06-15 18:04:04,555] 26 root - INFO - Splitting Dependent and Independent variables from train and test data
+[2024-06-15 18:04:05,165] 44 root - INFO - Model Report : {'LinearRegression': 0.9086726230762809, 'Lasso': 0.9086648042435632, 'Ridge': 0.9086745524437845, 'Elasticnet': 0.8423173232428233}
+[2024-06-15 18:04:05,166] 57 root - INFO - Best Model Found , Model Name : Ridge , R2 Score : 0.9086745524437845
+[2024-06-15 18:04:05,166] 15 root - INFO - evaluation started
+[2024-06-15 18:04:05,189] 33 root - INFO - model has register
+[2024-06-15 18:04:05,437] 21 root - INFO - evaluation metrics captured
